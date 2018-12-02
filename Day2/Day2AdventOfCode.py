@@ -12,8 +12,7 @@ def first():
                 two += 1
             if 3 in freq.values():
                 three += 1
-    print(two, three)
-    print(two*three)
+    return two*three
 
 
 def second():
@@ -29,5 +28,5 @@ def second():
                     return ''.join(same)
 
 
-first()
+print(first())
 print(second())
